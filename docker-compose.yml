@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  traffic-bot:
+    build: .
+    image: hcmc-traffic-bot
+    container_name: traffic-bot-1
+    restart: unless-stopped
+    volumes:
+      - ./:/app
