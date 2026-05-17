@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-  traffic-bot:
+  traffic-app:
     build: .
-    image: hcmc-traffic-bot
+    image: hcmc-traffic-bot:latest
     container_name: traffic-bot-1
     restart: unless-stopped
     volumes:

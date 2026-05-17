@@ -21,3 +21,12 @@ So_Diem_Ket_Xe: Số lượng các đoạn ùn tắc/kẹt xe trên tuyến đư
 Thoi_Gian_Xuat_Phat: Giờ dự kiến bắt đầu đi theo múi giờ.
 
 Thoi_Gian_Den_Noi: Giờ dự kiến đến đích.
+```
+Lệnh chạy lần đầu 
+```
+docker compose up --build
+
+```
+Lệnh chạy những lần sau
+```
+docker compose up -d --build
