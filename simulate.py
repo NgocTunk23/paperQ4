@@ -14,18 +14,31 @@ if not os.path.exists("roadnet.json"):
 with open("roadnet.json", "r", encoding="utf-8") as f:
     roadnet = json.load(f)
 
-# Lấy danh sách tất cả ID các con đường thực tế vừa quét được
-road_ids = [road["id"] for road in roadnet.get("roads", [])]
-print(f" -> Tìm thấy {len(road_ids)} đoạn đường hợp lệ.")
+# TÌM CÁC LỘ TRÌNH HỢP LỆ (GỒM ÍT NHẤT 2 ĐOẠN ĐƯỜNG NỐI VỚI NHAU)
+valid_routes = []
+for intersection in roadnet.get("intersections", []):
+    # Lọc bỏ các ngã tư ảo (để xe không xuất hiện từ giữa không trung)
+    if not intersection.get("virtual", False): 
+        for road_link in intersection.get("roadLinks", []):
+            start_road = road_link.get("startRoad")
+            end_road = road_link.get("endRoad")
+            # Bắt buộc phải có đường vào và đường ra
+            if start_road and end_road:
+                valid_routes.append([start_road, end_road])
+
+# Loại bỏ các lộ trình bị trùng lặp
+unique_routes = list(set(tuple(r) for r in valid_routes))
+valid_routes = [list(r) for r in unique_routes]
+
+print(f" -> Tìm thấy {len(valid_routes)} lộ trình hợp lệ qua ngã tư.")
 
 flows = []
-for road_id in road_ids:
-    # Cấu hình: Cứ mỗi 8 giây (interval=8.0) sẽ bơm 1 chiếc xe mới vào con đường này
+for route in valid_routes:
     flows.append({
         "vehicle": {
-            "length": 5.0,     # Chiều dài xe (mét)
-            "width": 2.0,      # Chiều rộng xe (mét)
-            "maxSpeed": 11.11, # Vận tốc tối đa ~40km/h
+            "length": 5.0,
+            "width": 2.0,
+            "maxSpeed": 11.11,
             "maxPosAcc": 2.0,
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
@@ -33,13 +46,12 @@ for road_id in road_ids:
             "minGap": 2.5,
             "maxSpeedReplanning": 11.11,
             "earliestStartReplanning": 0.0,
-            # CHỖ SỬA LỖI: Nhấc "headwayTime" vào đúng block "vehicle" theo quy chuẩn CityFlow
             "headwayTime": 1.5     
         },
-        "route": [road_id],    # Lộ trình chạy trên con đường này
-        "interval": 8.0,       # Tần suất xuất hiện xe (giây)
+        "route": route,      # CHỖ SỬA LỖI: Gắn mảng [đường_A, đường_B]
+        "interval": 20.0,    # Cứ 20 giây bơm 1 xe để máy không bị quá tải
         "startTime": 0,
-        "endTime": 3600        # Sinh xe liên tục trong 1 tiếng
+        "endTime": 3600
     })
 
 # Xuất ra file flow.json
@@ -61,17 +73,21 @@ except Exception as e:
     exit()
 
 # Tiến hành chạy mô phỏng qua 3600 giây (tương đương 1 tiếng thực tế)
-TOTAL_STEPS = 3600
+TOTAL_STEPS = 300
 print(f" -> Đang chạy giả lập giao thông qua {TOTAL_STEPS} bước tính toán...")
 
 for step in range(TOTAL_STEPS):
     eng.next_step()
     
-    # Cứ mỗi 10 phút (600 giây) in báo cáo kẹt xe ra màn hình một lần
-    if step % 600 == 0:
+    # In báo cáo mỗi 100 bước (tầm 100 giây) để dễ theo dõi hơn
+    if step % 100 == 0:
         waiting_cars = eng.get_lane_waiting_vehicle_count()
         total_waiting = sum(waiting_cars.values())
-        print(f"   [Phút {step // 60:02d}] Tổng số xe đang bị ùn tắc/chờ tại nút giao: {total_waiting} xe.")
+        
+        # Lấy tổng số xe đang thực sự di chuyển trên bản đồ
+        active_vehicles = eng.get_vehicle_count() 
+        
+        print(f"   [Bước {step}] Tổng xe đang chạy: {active_vehicles} | Số xe kẹt/chờ: {total_waiting} xe.")
 
 print("\n 🎉 GIẢ LẬP HOÀN TẤT THÀNH CÔNG!")
 print(" -> File kết quả mô phỏng đã được lưu: replay_log.txt")

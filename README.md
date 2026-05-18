@@ -29,3 +29,4 @@ docker compose up --build
 
 Sau khi chạy xong muốn xem giả lập thì cấu hình và lên web
 
+http://localhost:8080/frontend/
