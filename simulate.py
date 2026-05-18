@@ -5,7 +5,7 @@ import cityflow
 # =====================================================================
 # BƯỚC 1: TỰ ĐỘNG SINH LUỒNG PHƯƠNG TIỆN (FLOW.JSON) TỪ BẢN ĐỒ THỰC TẾ
 # =====================================================================
-print("==== BƯỚC 1: ĐANG TẠO LUỒNG PHƯƠNG TIỆN PHÙ HỢP VỚI QUẬN 1 ====")
+print("==== BƯỚC 1: ĐANG TẠO LUỒNG PHƯƠNG TIỆN TOÀN THÀNH PHỐ ====")
 
 if not os.path.exists("roadnet.json"):
     print("❌ Thất bại: Không tìm thấy file roadnet.json! Hãy chạy build_roadnet.py trước.")
@@ -32,7 +32,9 @@ for road_id in road_ids:
             "usualNegAcc": 4.5,
             "minGap": 2.5,
             "maxSpeedReplanning": 11.11,
-            "earliestStartReplanning": 0.0
+            "earliestStartReplanning": 0.0,
+            # CHỖ SỬA LỖI: Nhấc "headwayTime" vào đúng block "vehicle" theo quy chuẩn CityFlow
+            "headwayTime": 1.5     
         },
         "route": [road_id],    # Lộ trình chạy trên con đường này
         "interval": 8.0,       # Tần suất xuất hiện xe (giây)
