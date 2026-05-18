@@ -26,7 +26,6 @@ Lệnh chạy lần đầu
 ```
 docker compose up --build
 
-```
-Lệnh chạy những lần sau
-```
-docker compose up -d --build
+
+Sau khi chạy xong muốn xem giả lập thì cấu hình và lên web
+

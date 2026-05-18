@@ -4,22 +4,29 @@ FROM python:3.9-slim
 # Thiết lập thư mục làm việc trong container
 WORKDIR /app
 
-# Cài đặt các công cụ hệ thống cần thiết để biên dịch CityFlow C++
+# Cài đặt các công cụ hệ thống, wget, và SUMO
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
     git \
+    wget \
+    sumo \
+    sumo-tools \
     && rm -rf /var/lib/apt/lists/*
 
-# Sao chép và cài đặt các thư viện Python thông thường từ requirements.txt
+# BỔ SUNG DÒNG NÀY: Thiết lập biến môi trường bắt buộc cho SUMO
+ENV SUMO_HOME=/usr/share/sumo
+
+# Sao chép và cài đặt các thư viện Python
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# =====================================================================
-# VỊ TRÍ SỬA LỖI: CÀI ĐẶT CITYFLOW TRỰC TIẾP TỪ GITHUB
-# =====================================================================
-# Thay thế lệnh cũ bằng lệnh cài thẳng từ link repository chính thức
+# Cài đặt CityFlow và thư viện sumolib (bắt buộc cho converter)
 RUN pip install --no-cache-dir git+https://github.com/cityflow-project/CityFlow.git
+RUN pip install --no-cache-dir sumolib
+
+# Tải công cụ chuyển đổi định dạng chuẩn trực tiếp từ CityFlow Github
+RUN wget -O converter.py https://raw.githubusercontent.com/cityflow-project/CityFlow/master/tools/converter/converter.py
 
 # Sao chép toàn bộ mã nguồn của bạn vào trong container
 COPY . .
