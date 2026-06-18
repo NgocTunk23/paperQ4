@@ -389,8 +389,14 @@ def node_to_intersection(node,tls_dict,edge_dict):
     if node_type in ['traffic_light']:
         print(node.getID())
         if SUMO_PROGRAM:
-            all_phase = []
             nodeid = node.getID()
+            
+            # --- THÊM 2 DÒNG NÀY ĐỂ BỎ QUA ĐÈN LỖI ---
+            if nodeid not in tls_dict:
+                return process_intersection_simple_phase(intersection)
+            # -----------------------------------------
+
+            all_phase = []
             all_phase_dict[nodeid] = []
             G_to_lane_dict = {}
             for connec in tls_dict[nodeid]._connections:

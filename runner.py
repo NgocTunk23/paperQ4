@@ -44,10 +44,9 @@ if __name__ == "__main__":
     else:
         print("-> Đã có sẵn file roadnet.json, bỏ qua bước khởi tạo bản đồ.")
 
+    # Chỉ chạy giả lập và kết thúc, không chạy main.py nữa
     run_task("simulate.py", scenario=args.scenario)
-
-    print(f"\n[BƯỚC THU THẬP DATA] Bắt đầu quét dữ liệu TomTom định kỳ mỗi {INTERVAL_SECONDS // 60} phút.")
+    print("\n[HỆ THỐNG] Đã chạy xong giả lập. Đang giữ container sống để xem giao diện web...")
+    import time
     while True:
-        run_task("main.py")
-        print(f" -> Đang ngủ {INTERVAL_SECONDS // 60} phút trước lượt quét kế tiếp...")
-        time.sleep(INTERVAL_SECONDS)
+        time.sleep(3600) # Ngủ đông mỗi 1 tiếng

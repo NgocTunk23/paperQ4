@@ -89,7 +89,7 @@ def create_config_file(config_path: Path, flow_path: Path, replay_path: Path, ro
         "interval": 1.0,
         "seed": 0,
         "dir": str(config_path.parent),
-        "roadnetFile": str(roadnet_path),
+        "roadnetFile": "/app/roadnet.json", # <--- SỬA THÀNH ĐÚNG NHƯ THẾ NÀY
         "flowFile": str(flow_path),
         "rlTrafficLight": False,
         "saveReplay": True,

@@ -1,0 +1,11 @@
+{
+    "road_closures": [
+        {
+            "road_id": "example_road_id",
+            "reason": "multi_zone_impact",
+            "start_time": 120,
+            "end_time": 480,
+            "severity": "high"
+        }
+    ]
+}

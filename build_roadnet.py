@@ -48,7 +48,7 @@ def download_osm_data(bbox):
 
     print(f"[1] Bắt đầu tiến trình tải bản đồ...")
     api_url = (
-        f"https://api.openstreetmap.org/api/0.6/map?bbox={bbox['west']},{bbox['south']},"
+        f"https://overpass-api.de/api/map?bbox={bbox['west']},{bbox['south']},"
         f"{bbox['east']},{bbox['north']}"
     )
     headers = {"User-Agent": "CityFlow-Traffic-Bot/1.0"}
