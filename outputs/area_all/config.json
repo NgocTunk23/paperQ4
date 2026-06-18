@@ -1,11 +1,11 @@
 {
     "interval": 1.0,
     "seed": 0,
-    "dir": "outputs/area_all/",
-    "roadnetFile": "../../roadnet.json",
+    "dir": "/app/outputs/area_all/",
+    "roadnetFile": "roadnet.json",
     "flowFile": "flow.json",
     "rlTrafficLight": false,
-    "saveReplay": true,
+    "saveReplay": false,
     "roadnetLogFile": "replay_roadnet.json",
     "replayLogFile": "replay_log.txt"
 }

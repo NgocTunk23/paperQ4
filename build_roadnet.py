@@ -82,10 +82,12 @@ def build_standard_roadnet():
         "netconvert",
         "--osm-files", OSM_FILE,
         "-o", SUMO_NET_FILE,
-        "--geometry.remove", "true",
-        "--roundabouts.guess", "true",
-        "--tls.guess-signals", "true",
-        "--junctions.join", "true",
+        # Lọc bỏ tất cả đường không phải đường xe chạy chính để Engine C++ không bị sập
+        "--keep-edges.by-type", "highway.primary,highway.secondary,highway.tertiary,highway.trunk,highway.motorway,highway.living_street",
+        # Loại bỏ các đường cụt, đường lẻ loi không kết nối vào mạng lưới
+        "--remove-edges.isolated", "true",
+        # Xóa các thành phần gây lỗi vật lý thường gặp trong OSM
+        "--remove-edges.by-type", "highway.path,highway.footway,highway.cycleway,highway.construction,waterway,railway"
     ]
 
     try:

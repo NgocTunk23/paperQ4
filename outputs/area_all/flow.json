@@ -7,15 +7,17 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-615405228#3",
-            "615405227"
+            "-1276098336#1",
+            "-1276098336#0"
         ],
-        "interval": 20.0,
+        "interval": 12.0,
         "startTime": 0,
         "endTime": 3600
     },
@@ -27,1076 +29,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "1069178403",
-            "32583460#1"
+            "-1222914182#32",
+            "-1222914182#31"
         ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-612828408#3",
-            "291447143#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "899871111#0",
-            "899871111#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-498851844#5",
-            "498851844#5"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "1419633330#7",
-            "290631777#17"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-1230292738",
-            "1230292738"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "608214330#6",
-            "-608214330#6"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "612920929#1",
-            "-612920929#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-503561779#8",
-            "503561779#8"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "1264517777#4",
-            "609378587"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "32584415#4",
-            "-32584415#4"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "127460199#0",
-            "-1137249745#3"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "604802735#2",
-            "291139325#3"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "612876171",
-            "-612876171"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "612889268",
-            "-612889271#0"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-605429602#2",
-            "605429602#2"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-606087450#9",
-            "613726741#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-32585802#0",
-            "-1492174030"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "498309669#0",
-            "-1229457563"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-137036061#5",
-            "137036061#5"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-608818197#7",
-            "-608818197#6"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-292021980#4",
-            "-292021980#3"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-606087375#3",
-            "-606087375#2"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-609102159#0",
-            "315280491#5"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-290397651#0",
-            "-290397647#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "608254568#0",
-            "-608254568#0"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-608270398#1",
-            "608270397"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-32576129#0",
-            "32576129#0"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-615164393#1",
-            "615164393#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-604839540",
-            "1474589474#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-608002898#4",
-            "-608002898#3"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "306733985#1",
-            "306733999#0"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "137036050#4",
-            "-1018799299#3"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "722562966",
-            "722562965#0"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-1197568508",
-            "1197568608#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "1489694994#4",
-            "1489694994#5"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "1203874242#0",
-            "-1203874242#0"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-306734090#0",
-            "-832751803#0"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-613235461#0",
-            "613235464"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-604506135",
-            "-604506134"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "735027385#9",
-            "563799240#0"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-609088242",
-            "609088242"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-32588970#18",
-            "605429611"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-1197568614#1",
-            "1197568614#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-606524669",
-            "137036061#14"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "605436175#1",
-            "-605436175#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-834735317",
-            "-834731746#0"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-375886064#1",
-            "-375886064#0"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-291139307#11",
-            "613317546"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "1183331618#0",
-            "-1183331618#0"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "1179944872",
-            "1179944873#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-614665229",
-            "498851846#2"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "32584215#3",
-            "-32584215#3"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "291142579#16",
-            "834564842"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 1,
         "endTime": 3600
     },
     {
@@ -1107,156 +51,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "607629335#2",
-            "608818199"
+            "705716468",
+            "-705716468"
         ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-1269264065#6",
-            "-1269264065#5"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "612889271#2",
-            "612889271#3"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "607189484#2",
-            "607189476"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-615424847#1",
-            "615424847#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "-1361114213",
-            "1361114213"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "613651008#0",
-            "613651008#1"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
-        "endTime": 3600
-    },
-    {
-        "vehicle": {
-            "length": 5.0,
-            "width": 2.0,
-            "maxPosAcc": 2.0,
-            "maxNegAcc": 4.5,
-            "usualPosAcc": 2.0,
-            "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
-        },
-        "route": [
-            "604804759#2",
-            "604804777#8"
-        ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 2,
         "endTime": 3600
     },
     {
@@ -1267,16 +73,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-1304619279#1",
-            "-1304619283#1"
+            "1018421336",
+            "1219913406#0"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 3,
         "endTime": 3600
     },
     {
@@ -1287,16 +95,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-191937854#1",
-            "191937854#1"
+            "-32588592#0",
+            "1275903811"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 4,
         "endTime": 3600
     },
     {
@@ -1307,15 +117,17 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-32581914#0",
-            "564820758#0"
+            "-32585800#4",
+            "-32585800#3"
         ],
-        "interval": 20.0,
+        "interval": 12.0,
         "startTime": 0,
         "endTime": 3600
     },
@@ -1327,16 +139,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-137036111#3",
-            "-607610992#0"
+            "-568398688#28",
+            "568398688#28"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 1,
         "endTime": 3600
     },
     {
@@ -1347,16 +161,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-315506867",
-            "315506867"
+            "1220778649#5",
+            "1220778649#6"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 2,
         "endTime": 3600
     },
     {
@@ -1367,16 +183,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "568398686#8",
-            "605168953"
+            "-32580098#6",
+            "-32580098#5"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 3,
         "endTime": 3600
     },
     {
@@ -1387,16 +205,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-32580345",
-            "32575796"
+            "1269082107#2",
+            "1269082107#3"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 4,
         "endTime": 3600
     },
     {
@@ -1407,15 +227,17 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-608189593#1",
-            "608189593#1"
+            "1178717246#14",
+            "1061265028"
         ],
-        "interval": 20.0,
+        "interval": 12.0,
         "startTime": 0,
         "endTime": 3600
     },
@@ -1427,16 +249,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "1219913405#4",
-            "615437253#10"
+            "232604863#3",
+            "1344344479#2"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 1,
         "endTime": 3600
     },
     {
@@ -1447,16 +271,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-32581146#5",
-            "32581146#5"
+            "32578763#6",
+            "32578763#7"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 2,
         "endTime": 3600
     },
     {
@@ -1467,16 +293,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-606243615#1",
-            "-606247274"
+            "1424698028#2",
+            "242368567#0"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 3,
         "endTime": 3600
     },
     {
@@ -1487,16 +315,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-1224670425#5",
-            "-1224670425#3"
+            "-1272179589#0",
+            "-32577880#16"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 4,
         "endTime": 3600
     },
     {
@@ -1507,15 +337,17 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-1463428405",
-            "1463428405"
+            "32580098#7",
+            "32585196#0"
         ],
-        "interval": 20.0,
+        "interval": 12.0,
         "startTime": 0,
         "endTime": 3600
     },
@@ -1527,16 +359,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-608490052#1",
-            "898338773"
+            "290570867#15",
+            "290570867#16"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 1,
         "endTime": 3600
     },
     {
@@ -1547,16 +381,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-606560043#1",
-            "897969835"
+            "-32580098#3",
+            "-32580098#2"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 2,
         "endTime": 3600
     },
     {
@@ -1567,16 +403,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-741591594",
-            "-312533833#1"
+            "1392111587#4",
+            "568398691#1"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 3,
         "endTime": 3600
     },
     {
@@ -1587,16 +425,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-608261159",
-            "-608261161"
+            "1344344482#0",
+            "232604863#6"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 4,
         "endTime": 3600
     },
     {
@@ -1607,15 +447,17 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "137036061#5",
-            "137036061#6"
+            "1015442479#6",
+            "1015442479#7"
         ],
-        "interval": 20.0,
+        "interval": 12.0,
         "startTime": 0,
         "endTime": 3600
     },
@@ -1627,16 +469,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "291456336#9",
-            "291456336#11"
+            "-1264517066#8",
+            "-1264517066#7"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 1,
         "endTime": 3600
     },
     {
@@ -1647,16 +491,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-614692806",
-            "614692806"
+            "32585800#0",
+            "32585800#1"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 2,
         "endTime": 3600
     },
     {
@@ -1667,16 +513,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "1190970671#10",
-            "1190970671#11"
+            "-1256521734#4",
+            "-1256521734#3"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 3,
         "endTime": 3600
     },
     {
@@ -1687,16 +535,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "32585784#7",
-            "-32585784#7"
+            "568398698#7",
+            "568398698#8"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 4,
         "endTime": 3600
     },
     {
@@ -1707,15 +557,17 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-609372171#1",
-            "609372171#1"
+            "32588592#2",
+            "32588592#3"
         ],
-        "interval": 20.0,
+        "interval": 12.0,
         "startTime": 0,
         "endTime": 3600
     },
@@ -1727,16 +579,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-1137000695",
-            "1137000697#1"
+            "291963280#2",
+            "291963280#3"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 1,
         "endTime": 3600
     },
     {
@@ -1747,16 +601,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-137138279#0",
-            "137138279#0"
+            "59986401#18",
+            "59986401#19"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 2,
         "endTime": 3600
     },
     {
@@ -1767,16 +623,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-615410871#0",
-            "615419760#11"
+            "-976324699#0",
+            "-1344368356#1"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 3,
         "endTime": 3600
     },
     {
@@ -1787,16 +645,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-137138294#6",
-            "-137138294#5"
+            "498851846#4",
+            "498851846#5"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 4,
         "endTime": 3600
     },
     {
@@ -1807,15 +667,17 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "606976503",
-            "306734074#1"
+            "32579844#0",
+            "32579844#1"
         ],
-        "interval": 20.0,
+        "interval": 12.0,
         "startTime": 0,
         "endTime": 3600
     },
@@ -1827,16 +689,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-137036047#9",
-            "-137036047#8"
+            "291963280#1",
+            "291963280#2"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 1,
         "endTime": 3600
     },
     {
@@ -1847,16 +711,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "146057387#2",
-            "291269261#4"
+            "870286990#1",
+            "870286990#2"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 2,
         "endTime": 3600
     },
     {
@@ -1867,16 +733,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "566551498#6",
-            "1012315233"
+            "-137036072#5",
+            "-137036072#4"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 3,
         "endTime": 3600
     },
     {
@@ -1887,16 +755,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "1334506916#3",
-            "1419302309"
+            "1220421004#26",
+            "1220421004#27"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 4,
         "endTime": 3600
     },
     {
@@ -1907,15 +777,17 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-610073331",
-            "490689423#9"
+            "1320716266#2",
+            "1320716266#3"
         ],
-        "interval": 20.0,
+        "interval": 12.0,
         "startTime": 0,
         "endTime": 3600
     },
@@ -1927,16 +799,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "615410888#2",
-            "-615410888#2"
+            "563798870#1",
+            "615405235#0"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 1,
         "endTime": 3600
     },
     {
@@ -1947,16 +821,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "306734079#0",
-            "-306734079#0"
+            "-137138288#9",
+            "-137138288#8"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 2,
         "endTime": 3600
     },
     {
@@ -1967,16 +843,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-608178677#0",
-            "-32585337#0"
+            "211848194#2",
+            "-290326855#2"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 3,
         "endTime": 3600
     },
     {
@@ -1987,16 +865,18 @@
             "maxNegAcc": 4.5,
             "usualPosAcc": 2.0,
             "usualNegAcc": 4.5,
-            "minGap": 2.5,
-            "maxSpeed": 16.67,
-            "headwayTime": 1.5
+            "minGap": 1.5,
+            "maxSpeed": 11.11,
+            "maxSpeedReplanning": 11.11,
+            "earliestStartReplanning": 0.0,
+            "headwayTime": 1.0
         },
         "route": [
-            "-615424837#2",
-            "615424837#2"
+            "-568398688#56",
+            "-568398688#55"
         ],
-        "interval": 20.0,
-        "startTime": 0,
+        "interval": 12.0,
+        "startTime": 4,
         "endTime": 3600
     }
 ]
