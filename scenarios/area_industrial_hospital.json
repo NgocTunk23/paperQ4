@@ -1,36 +1,42 @@
 {
   "id": "area_industrial_hospital",
-  "name": "Khu công nghiệp và bệnh viện",
-  "description": "Kịch bản cho vùng có khu công nghiệp và bệnh viện.",
+  "name": "Khu công nghiệp và bệnh viện (Bình Tân)",
+  "description": "Mô phỏng khu vực trục QL1A và Trần Văn Giàu, giữa KCN Tân Tạo và cụm BV Triều An / Quốc tế City.",
   "area_types": ["industrial", "hospital"],
   "bbox": {
-    "south": 10.74,
-    "west": 106.68,
-    "north": 10.80,
-    "east": 106.76
+    "south": 10.735,
+    "west": 106.580,
+    "north": 10.775,
+    "east": 106.625
   },
   "regions": [
     {
-      "name": "Khu công nghiệp",
+      "name": "Khu công nghiệp Tân Tạo",
       "area_type": "industrial",
+      "latitude": 10.760,
+      "longitude": 106.595,
+      "radius_km": 1.5,
       "bbox": {
-        "south": 10.74,
-        "west": 106.68,
-        "north": 10.77,
-        "east": 106.72
+        "south": 10.750,
+        "west": 106.585,
+        "north": 10.770,
+        "east": 106.605
       },
-      "notes": "Điền tọa độ khu công nghiệp thật vào đây"
+      "notes": "Lưu lượng công nhân đi làm và xe tải chở hàng rẽ ra QL1A."
     },
     {
-      "name": "Bệnh viện",
+      "name": "Cụm Bệnh viện (Triều An, Quốc tế City)",
       "area_type": "hospital",
+      "latitude": 10.745,
+      "longitude": 106.615,
+      "radius_km": 1.0,
       "bbox": {
-        "south": 10.77,
-        "west": 106.70,
-        "north": 10.80,
-        "east": 106.76
+        "south": 10.740,
+        "west": 106.605,
+        "north": 10.755,
+        "east": 106.620
       },
-      "notes": "Điền tọa độ bệnh viện thật vào đây"
+      "notes": "Khu y tế kỹ thuật cao, thường xuyên tắc nghẽn giao thông do quay đầu xe."
     }
   ],
   "flow": {

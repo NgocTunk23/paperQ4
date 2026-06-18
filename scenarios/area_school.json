@@ -1,28 +1,28 @@
 {
   "id": "area_school",
-  "name": "Khu vực trường học",
-  "description": "Mô phỏng tình huống tập trung ở khu vực trường học.",
+  "name": "Khu vực trường học biệt lập (Quận 7)",
+  "description": "Mô phỏng khu vực Nguyễn Hữu Thọ tập trung ĐH Tôn Đức Thắng và RMIT, xung quanh chỉ là khu dân cư.",
   "area_types": ["school"],
   "bbox": {
-    "south": 10.74,
-    "west": 106.68,
-    "north": 10.80,
-    "east": 106.76
+    "south": 10.720,
+    "west": 106.685,
+    "north": 10.745,
+    "east": 106.710
   },
   "regions": [
     {
-      "name": "Trường học",
+      "name": "Trường ĐH Tôn Đức Thắng & RMIT",
       "area_type": "school",
-      "latitude": 10.77,
-      "longitude": 106.71,
+      "latitude": 10.730,
+      "longitude": 106.698,
       "radius_km": 1.0,
       "bbox": {
-        "south": 10.75,
-        "west": 106.69,
-        "north": 10.79,
-        "east": 106.73
+        "south": 10.725,
+        "west": 106.690,
+        "north": 10.738,
+        "east": 106.705
       },
-      "notes": "Điền tọa độ thật của trường học vào đây"
+      "notes": "Điểm kẹt xe thuần túy do sinh viên và ô tô ra vào khuôn viên trường học."
     }
   ],
   "flow": {

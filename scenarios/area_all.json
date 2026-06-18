@@ -1,56 +1,56 @@
 {
   "id": "area_all",
-  "name": "Trường học, bệnh viện và khu công nghiệp",
-  "description": "Mô phỏng tổng hợp cho tất cả các loại khu vực chính.",
+  "name": "Trường học, bệnh viện và khu công nghiệp (Khu vực Dĩ An - Thủ Đức)",
+  "description": "Mô phỏng giao thông hỗn hợp giữa xe tải nặng từ KCN Sóng Thần, xe máy từ khu Làng Đại Học và lưu lượng quanh Bệnh viện.",
   "area_types": ["school", "hospital", "industrial"],
   "bbox": {
-    "south": 10.74,
-    "west": 106.68,
-    "north": 10.80,
-    "east": 106.76
+    "south": 10.850,
+    "west": 106.740,
+    "north": 10.925,
+    "east": 106.815
   },
   "regions": [
     {
-      "name": "Trường học",
+      "name": "Trường học (Khu Làng Đại học - ĐH Bách Khoa)",
       "area_type": "school",
-      "latitude": 10.76,
-      "longitude": 106.69,
-      "radius_km": 0.8,
+      "latitude": 10.8805,
+      "longitude": 106.8054,
+      "radius_km": 1.5,
       "bbox": {
-        "south": 10.75,
-        "west": 106.68,
-        "north": 10.77,
-        "east": 106.71
+        "south": 10.870,
+        "west": 106.795,
+        "north": 10.890,
+        "east": 106.815
       },
-      "notes": "Điền tọa độ thật của trường học vào đây"
+      "notes": "Tập trung lượng lớn xe máy và xe buýt, giờ cao điểm sáng và chiều."
     },
     {
-      "name": "Bệnh viện",
+      "name": "Bệnh viện (Trung tâm Y tế Dĩ An / BV Thủ Đức)",
       "area_type": "hospital",
-      "latitude": 10.77,
-      "longitude": 106.72,
-      "radius_km": 0.8,
+      "latitude": 10.9150,
+      "longitude": 106.7950,
+      "radius_km": 1.0,
       "bbox": {
-        "south": 10.76,
-        "west": 106.70,
-        "north": 10.79,
-        "east": 106.74
+        "south": 10.905,
+        "west": 106.785,
+        "north": 10.920,
+        "east": 106.805
       },
-      "notes": "Điền tọa độ thật của bệnh viện vào đây"
+      "notes": "Lưu lượng xe cấp cứu và xe ô tô cá nhân thường xuyên."
     },
     {
-      "name": "Khu công nghiệp",
+      "name": "Khu công nghiệp (KCN Sóng Thần 1 & 2)",
       "area_type": "industrial",
-      "latitude": 10.79,
-      "longitude": 106.75,
-      "radius_km": 0.8,
+      "latitude": 10.9050,
+      "longitude": 106.7560,
+      "radius_km": 2.0,
       "bbox": {
-        "south": 10.78,
-        "west": 106.73,
-        "north": 10.80,
-        "east": 106.76
+        "south": 10.895,
+        "west": 106.745,
+        "north": 10.915,
+        "east": 106.770
       },
-      "notes": "Điền tọa độ thật của khu công nghiệp vào đây"
+      "notes": "Điểm nóng xe container, xe tải nặng lưu thông ra các đại lộ."
     }
   ],
   "flow": {

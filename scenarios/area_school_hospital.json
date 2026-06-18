@@ -1,42 +1,42 @@
 {
   "id": "area_school_hospital",
-  "name": "Trường học và bệnh viện",
-  "description": "Mô phỏng kết hợp giữa trường học và bệnh viện.",
+  "name": "Trường học và bệnh viện (Quận 5)",
+  "description": "Mô phỏng tại Quận 5, nơi tập trung dày đặc các bệnh viện lớn (Chợ Rẫy, ĐH Y Dược) và các trường Đại học (KHTN, Sài Gòn).",
   "area_types": ["school", "hospital"],
   "bbox": {
-    "south": 10.74,
-    "west": 106.68,
-    "north": 10.80,
-    "east": 106.76
+    "south": 10.745,
+    "west": 106.650,
+    "north": 10.775,
+    "east": 106.685
   },
   "regions": [
     {
-      "name": "Trường học",
+      "name": "Cụm Trường Đại học (An Dương Vương / Nguyễn Văn Cừ)",
       "area_type": "school",
-      "latitude": 10.76,
-      "longitude": 106.69,
+      "latitude": 10.762,
+      "longitude": 106.680,
       "radius_km": 0.8,
       "bbox": {
-        "south": 10.75,
-        "west": 106.68,
-        "north": 10.77,
-        "east": 106.71
+        "south": 10.755,
+        "west": 106.675,
+        "north": 10.768,
+        "east": 106.685
       },
-      "notes": "Điền tọa độ thật của trường học vào đây"
+      "notes": "Lưu lượng sinh viên, xe máy rất cao."
     },
     {
-      "name": "Bệnh viện",
+      "name": "Cụm Bệnh viện (Nguyễn Chí Thanh / Hồng Bàng)",
       "area_type": "hospital",
-      "latitude": 10.78,
-      "longitude": 106.73,
+      "latitude": 10.755,
+      "longitude": 106.660,
       "radius_km": 0.8,
       "bbox": {
-        "south": 10.77,
-        "west": 106.71,
-        "north": 10.79,
-        "east": 106.75
+        "south": 10.748,
+        "west": 106.655,
+        "north": 10.762,
+        "east": 106.668
       },
-      "notes": "Điền tọa độ thật của bệnh viện vào đây"
+      "notes": "Lưu lượng xe cứu thương, taxi, ô tô cá nhân thường xuyên ùn ứ."
     }
   ],
   "flow": {

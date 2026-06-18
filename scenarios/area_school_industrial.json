@@ -1,42 +1,42 @@
 {
   "id": "area_school_industrial",
-  "name": "Trường học và khu công nghiệp",
-  "description": "Mô phỏng kết hợp giữa trường học và khu công nghiệp.",
+  "name": "Trường học và khu công nghiệp (KCNC Quận 9)",
+  "description": "Mô phỏng đường D1 giao Võ Chí Công, kết nối KCNC với cụm ĐH FPT, Hutech, không có bệnh viện lớn.",
   "area_types": ["school", "industrial"],
   "bbox": {
-    "south": 10.74,
-    "west": 106.68,
-    "north": 10.80,
-    "east": 106.76
+    "south": 10.830,
+    "west": 106.780,
+    "north": 10.875,
+    "east": 106.820
   },
   "regions": [
     {
-      "name": "Trường học",
+      "name": "Cụm trường học (FPT, Hutech campus)",
       "area_type": "school",
-      "latitude": 10.76,
-      "longitude": 106.69,
-      "radius_km": 0.8,
+      "latitude": 10.865,
+      "longitude": 106.808,
+      "radius_km": 1.0,
       "bbox": {
-        "south": 10.75,
-        "west": 106.68,
-        "north": 10.77,
-        "east": 106.71
+        "south": 10.855,
+        "west": 106.800,
+        "north": 10.870,
+        "east": 106.815
       },
-      "notes": "Điền tọa độ thật của trường học vào đây"
+      "notes": "Lưu lượng sinh viên đi xe buýt và xe máy vào cuối ngày."
     },
     {
-      "name": "Khu công nghiệp",
+      "name": "Khu công nghiệp (Khu Công Nghệ Cao SHTP)",
       "area_type": "industrial",
-      "latitude": 10.78,
-      "longitude": 106.73,
-      "radius_km": 0.8,
+      "latitude": 10.845,
+      "longitude": 106.795,
+      "radius_km": 1.5,
       "bbox": {
-        "south": 10.77,
-        "west": 106.71,
-        "north": 10.79,
-        "east": 106.75
+        "south": 10.835,
+        "west": 106.785,
+        "north": 10.855,
+        "east": 106.805
       },
-      "notes": "Điền tọa độ thật của khu công nghiệp vào đây"
+      "notes": "Lưu lượng xe chở công nhân viên, xe logistics."
     }
   ],
   "flow": {

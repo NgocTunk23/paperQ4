@@ -1,28 +1,28 @@
 {
   "id": "area_industrial",
-  "name": "Khu vực khu công nghiệp",
-  "description": "Mô phỏng tình huống tập trung ở khu công nghiệp.",
+  "name": "Khu vực KCN biệt lập (Hiệp Phước - Nhà Bè)",
+  "description": "Mô phỏng khu công nghiệp Hiệp Phước và cụm cảng, cách xa trung tâm, dòng xe chủ yếu là container, xe tải.",
   "area_types": ["industrial"],
   "bbox": {
-    "south": 10.74,
-    "west": 106.68,
-    "north": 10.80,
-    "east": 106.76
+    "south": 10.615,
+    "west": 106.720,
+    "north": 10.645,
+    "east": 106.755
   },
   "regions": [
     {
-      "name": "Khu công nghiệp",
+      "name": "Khu công nghiệp Hiệp Phước",
       "area_type": "industrial",
-      "latitude": 10.77,
-      "longitude": 106.71,
-      "radius_km": 1.0,
+      "latitude": 10.630,
+      "longitude": 106.735,
+      "radius_km": 1.5,
       "bbox": {
-        "south": 10.75,
-        "west": 106.69,
-        "north": 10.79,
-        "east": 106.73
+        "south": 10.620,
+        "west": 106.725,
+        "north": 10.640,
+        "east": 106.745
       },
-      "notes": "Điền tọa độ thật của khu công nghiệp vào đây"
+      "notes": "Ùn tắc do xe tải nặng, container chờ vào kho bãi/cảng."
     }
   ],
   "flow": {

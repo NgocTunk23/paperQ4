@@ -1,28 +1,28 @@
 {
   "id": "area_hospital",
-  "name": "Khu vực bệnh viện",
-  "description": "Mô phỏng tình huống tập trung ở khu vực bệnh viện.",
+  "name": "Khu vực bệnh viện biệt lập (Bình Chánh)",
+  "description": "Mô phỏng quanh BV Nhi Đồng Thành Phố trên đường dẫn cao tốc, không bị nhiễu bởi trường học hay KCN.",
   "area_types": ["hospital"],
   "bbox": {
-    "south": 10.74,
-    "west": 106.68,
-    "north": 10.80,
-    "east": 106.76
+    "south": 10.710,
+    "west": 106.585,
+    "north": 10.735,
+    "east": 106.610
   },
   "regions": [
     {
-      "name": "Bệnh viện",
+      "name": "Bệnh viện Nhi Đồng Thành Phố",
       "area_type": "hospital",
-      "latitude": 10.77,
-      "longitude": 106.71,
+      "latitude": 10.723,
+      "longitude": 106.596,
       "radius_km": 1.0,
       "bbox": {
-        "south": 10.75,
-        "west": 106.69,
-        "north": 10.79,
-        "east": 106.73
+        "south": 10.715,
+        "west": 106.590,
+        "north": 10.730,
+        "east": 106.605
       },
-      "notes": "Điền tọa độ thật của bệnh viện vào đây"
+      "notes": "Lưu lượng giao thông dồn về cổng bệnh viện trên trục đường lớn."
     }
   ],
   "flow": {
