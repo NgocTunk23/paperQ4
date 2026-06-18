@@ -1,19 +1,23 @@
 version: '3.8'
 services:
-  traffic-app:
+  traffic-simulator:
     build: .
     image: hcmc-traffic-bot:latest
     container_name: traffic-bot-1
     restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
     volumes:
       - ./:/app
+    command: python runner.py --scenario scenarios/area_all.json
 
-  web_frontend:
-    image: python:3.9-slim
+  web-frontend:
+    image: python:3.11-slim
     container_name: cityflow_frontend
+    restart: unless-stopped
     ports:
       - "8080:8000"
     volumes:
       - ./:/app
     working_dir: /app
-    command: python3 -m http.server 8000
+    command: python -m http.server 8000

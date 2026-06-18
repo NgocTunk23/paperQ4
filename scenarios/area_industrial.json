@@ -1,0 +1,43 @@
+{
+  "id": "area_industrial",
+  "name": "Khu vực khu công nghiệp",
+  "description": "Mô phỏng tình huống tập trung ở khu công nghiệp.",
+  "area_types": ["industrial"],
+  "bbox": {
+    "south": 10.74,
+    "west": 106.68,
+    "north": 10.80,
+    "east": 106.76
+  },
+  "regions": [
+    {
+      "name": "Khu công nghiệp",
+      "area_type": "industrial",
+      "latitude": 10.77,
+      "longitude": 106.71,
+      "radius_km": 1.0,
+      "bbox": {
+        "south": 10.75,
+        "west": 106.69,
+        "north": 10.79,
+        "east": 106.73
+      },
+      "notes": "Điền tọa độ thật của khu công nghiệp vào đây"
+    }
+  ],
+  "flow": {
+    "base_interval": 15.0,
+    "start_time": 0,
+    "end_time": 3600,
+    "route_multiplier": 1.2
+  },
+  "road_closures": [
+    {
+      "road_id": "example_road_id",
+      "reason": "industrial_logistics",
+      "start_time": 240,
+      "end_time": 540,
+      "severity": "medium"
+    }
+  ]
+}

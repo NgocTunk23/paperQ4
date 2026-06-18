@@ -1,0 +1,43 @@
+{
+  "id": "area_hospital",
+  "name": "Khu vực bệnh viện",
+  "description": "Mô phỏng tình huống tập trung ở khu vực bệnh viện.",
+  "area_types": ["hospital"],
+  "bbox": {
+    "south": 10.74,
+    "west": 106.68,
+    "north": 10.80,
+    "east": 106.76
+  },
+  "regions": [
+    {
+      "name": "Bệnh viện",
+      "area_type": "hospital",
+      "latitude": 10.77,
+      "longitude": 106.71,
+      "radius_km": 1.0,
+      "bbox": {
+        "south": 10.75,
+        "west": 106.69,
+        "north": 10.79,
+        "east": 106.73
+      },
+      "notes": "Điền tọa độ thật của bệnh viện vào đây"
+    }
+  ],
+  "flow": {
+    "base_interval": 10.0,
+    "start_time": 0,
+    "end_time": 3600,
+    "route_multiplier": 1.0
+  },
+  "road_closures": [
+    {
+      "road_id": "example_road_id",
+      "reason": "hospital_access",
+      "start_time": 180,
+      "end_time": 420,
+      "severity": "high"
+    }
+  ]
+}

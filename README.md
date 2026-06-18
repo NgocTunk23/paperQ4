@@ -1,32 +1,101 @@
-Thoi_Gian_Quet: Thời điểm gửi yêu cầu lấy dữ liệu (Ví dụ: 00:42:46).
+# Hướng dẫn chạy scenario theo tọa độ
 
-Tuyen_Duong: Tên tuyến đường/lộ trình đã khai báo trong mã nguồn.
+Bạn chỉ cần chỉnh các file JSON trong [scenarios](scenarios). Mỗi file có 1 phần `bbox` để xác định vùng cần giả lập, và có thể có thêm `regions` để mô tả từng khu vực riêng.
 
-Chieu_Dai_Tong_Met: Tổng chiều dài của lộ trình tính bằng mét.
+## 1. Các file scenario có sẵn
 
-Chieu_Dai_Doan_Ket_Xe_Met: Tổng chiều dài của các đoạn bị kẹt xe trên tuyến.
+- [scenarios/area_school.json](scenarios/area_school.json): trường học
+- [scenarios/area_hospital.json](scenarios/area_hospital.json): bệnh viện
+- [scenarios/area_industrial.json](scenarios/area_industrial.json): khu công nghiệp
+- [scenarios/area_industrial_hospital.json](scenarios/area_industrial_hospital.json): khu công nghiệp + bệnh viện
+- [scenarios/area_school_hospital.json](scenarios/area_school_hospital.json): trường học + bệnh viện
+- [scenarios/area_school_industrial.json](scenarios/area_school_industrial.json): trường học + khu công nghiệp
+- [scenarios/area_all.json](scenarios/area_all.json): trường học + bệnh viện + khu công nghiệp
 
-Tgian_Ly_Tuong_Giay: Thời gian chạy xe lý tưởng (đường trống, đi đúng tốc độ giới hạn) tính bằng giây.
+## 2. Cách nhập tọa độ đúng
 
-Tgian_Lich_Su_Giay: Thời gian chạy xe trung bình vào khung giờ này dựa trên dữ liệu lịch sử của nhiều ngày trước đó.
+Mỗi scenario nên có các trường sau:
 
-Tgian_Su_Co_Realtime_Giay: Thời gian chạy xe thực tế đã cộng thêm các sự cố đang xảy ra (tai nạn, lô cốt, chốt chặn...).
+- `bbox`: khung vùng lớn nhất của scenario
+  - `south`: vĩ độ thấp nhất
+  - `west`: kinh độ trái nhất
+  - `north`: vĩ độ cao nhất
+  - `east`: kinh độ phải nhất
+- `regions`: danh sách các khu vực nhỏ bên trong vùng đó
+  - `latitude`, `longitude`: tọa độ tâm khu vực
+  - `radius_km`: bán kính vùng quanh tâm (km)
+  - `bbox`: nếu muốn nhập rõ ranh giới cho từng khu vực
+- `road_closures`: danh sách đường bị tắt
 
-Tgian_Di_Thuc_Te_Giay: Thời gian chạy xe thực tế ước tính ngay tại thời điểm quét (đã tính mọi yếu tố).
+> Nên nhập theo đúng thứ tự: `south`, `west`, `north`, `east`.
+> `south` và `north` là vĩ độ, `west` và `east` là kinh độ.
 
-Do_Tre_Tong_Giay: Tổng thời gian bị chậm trễ so với lý tưởng do kẹt xe hoặc dừng đèn đỏ (0 vào lúc rạng sáng).
+Ví dụ mẫu:
 
-So_Diem_Ket_Xe: Số lượng các đoạn ùn tắc/kẹt xe trên tuyến đường.
-
-Thoi_Gian_Xuat_Phat: Giờ dự kiến bắt đầu đi theo múi giờ.
-
-Thoi_Gian_Den_Noi: Giờ dự kiến đến đích.
+```json
+{
+  "id": "area_demo",
+  "name": "Demo",
+  "bbox": {
+    "south": 10.74,
+    "west": 106.68,
+    "north": 10.80,
+    "east": 106.76
+  },
+  "regions": [
+    {
+      "name": "Khu vực A",
+      "area_type": "hospital",
+      "latitude": 10.77,
+      "longitude": 106.71,
+      "radius_km": 1.0,
+      "bbox": {
+        "south": 10.75,
+        "west": 106.69,
+        "north": 10.79,
+        "east": 106.73
+      }
+    }
+  ]
+}
 ```
-Lệnh chạy lần đầu 
+
+## 3. Chạy một scenario
+
+```bash
+python simulate.py --scenario scenarios/area_industrial_hospital.json
 ```
+
+Hoặc chạy bằng runner mặc định:
+
+```bash
+python runner.py --scenario scenarios/area_industrial_hospital.json
+```
+
+## 4. Chạy bằng Docker
+
+```bash
 docker compose up --build
+```
 
+Nếu muốn đổi scenario trong Docker, hãy sửa [docker-compose.yml](docker-compose.yml) thành lệnh bạn cần, ví dụ:
 
-Sau khi chạy xong muốn xem giả lập thì cấu hình và lên web
+```yaml
+command: python runner.py --scenario scenarios/area_industrial_hospital.json
+```
 
-http://localhost:8080/frontend/
+## 5. Nếu bạn muốn tạo scenario mới
+
+Bạn có thể chỉnh trực tiếp file JSON trong [scenarios](scenarios), hoặc chạy:
+
+```bash
+python create_custom_scenario.py
+```
+
+Script này sẽ hỏi bạn nhập:
+- tên scenario,
+- loại vùng,
+- tọa độ tâm (`latitude`, `longitude`),
+- bán kính (`radius_km`),
+- thời gian tắt đường nếu cần.
+

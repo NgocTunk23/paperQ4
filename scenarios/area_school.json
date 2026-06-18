@@ -1,0 +1,43 @@
+{
+  "id": "area_school",
+  "name": "Khu vực trường học",
+  "description": "Mô phỏng tình huống tập trung ở khu vực trường học.",
+  "area_types": ["school"],
+  "bbox": {
+    "south": 10.74,
+    "west": 106.68,
+    "north": 10.80,
+    "east": 106.76
+  },
+  "regions": [
+    {
+      "name": "Trường học",
+      "area_type": "school",
+      "latitude": 10.77,
+      "longitude": 106.71,
+      "radius_km": 1.0,
+      "bbox": {
+        "south": 10.75,
+        "west": 106.69,
+        "north": 10.79,
+        "east": 106.73
+      },
+      "notes": "Điền tọa độ thật của trường học vào đây"
+    }
+  ],
+  "flow": {
+    "base_interval": 12.0,
+    "start_time": 0,
+    "end_time": 3600,
+    "route_multiplier": 1.0
+  },
+  "road_closures": [
+    {
+      "road_id": "example_road_id",
+      "reason": "school_peak_hour",
+      "start_time": 300,
+      "end_time": 600,
+      "severity": "medium"
+    }
+  ]
+}

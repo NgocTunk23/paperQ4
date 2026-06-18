@@ -1,0 +1,57 @@
+{
+  "id": "area_school_hospital",
+  "name": "Trường học và bệnh viện",
+  "description": "Mô phỏng kết hợp giữa trường học và bệnh viện.",
+  "area_types": ["school", "hospital"],
+  "bbox": {
+    "south": 10.74,
+    "west": 106.68,
+    "north": 10.80,
+    "east": 106.76
+  },
+  "regions": [
+    {
+      "name": "Trường học",
+      "area_type": "school",
+      "latitude": 10.76,
+      "longitude": 106.69,
+      "radius_km": 0.8,
+      "bbox": {
+        "south": 10.75,
+        "west": 106.68,
+        "north": 10.77,
+        "east": 106.71
+      },
+      "notes": "Điền tọa độ thật của trường học vào đây"
+    },
+    {
+      "name": "Bệnh viện",
+      "area_type": "hospital",
+      "latitude": 10.78,
+      "longitude": 106.73,
+      "radius_km": 0.8,
+      "bbox": {
+        "south": 10.77,
+        "west": 106.71,
+        "north": 10.79,
+        "east": 106.75
+      },
+      "notes": "Điền tọa độ thật của bệnh viện vào đây"
+    }
+  ],
+  "flow": {
+    "base_interval": 9.0,
+    "start_time": 0,
+    "end_time": 3600,
+    "route_multiplier": 1.2
+  },
+  "road_closures": [
+    {
+      "road_id": "example_road_id",
+      "reason": "shared_demand",
+      "start_time": 240,
+      "end_time": 480,
+      "severity": "high"
+    }
+  ]
+}

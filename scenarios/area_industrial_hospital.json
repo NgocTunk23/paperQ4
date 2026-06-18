@@ -1,0 +1,51 @@
+{
+  "id": "area_industrial_hospital",
+  "name": "Khu công nghiệp và bệnh viện",
+  "description": "Kịch bản cho vùng có khu công nghiệp và bệnh viện.",
+  "area_types": ["industrial", "hospital"],
+  "bbox": {
+    "south": 10.74,
+    "west": 106.68,
+    "north": 10.80,
+    "east": 106.76
+  },
+  "regions": [
+    {
+      "name": "Khu công nghiệp",
+      "area_type": "industrial",
+      "bbox": {
+        "south": 10.74,
+        "west": 106.68,
+        "north": 10.77,
+        "east": 106.72
+      },
+      "notes": "Điền tọa độ khu công nghiệp thật vào đây"
+    },
+    {
+      "name": "Bệnh viện",
+      "area_type": "hospital",
+      "bbox": {
+        "south": 10.77,
+        "west": 106.70,
+        "north": 10.80,
+        "east": 106.76
+      },
+      "notes": "Điền tọa độ bệnh viện thật vào đây"
+    }
+  ],
+  "flow": {
+    "base_interval": 9.0,
+    "start_time": 0,
+    "end_time": 3600,
+    "route_multiplier": 1.2
+  },
+  "road_closures": [
+    {
+      "road_id": "example_road_id",
+      "reason": "industrial_hospital_mix",
+      "start_time": 180,
+      "end_time": 540,
+      "severity": "high"
+    }
+  ]
+}
