@@ -3,3 +3,4 @@ pandas==2.2.2
 sympy
 python-dotenv
 numpy
+mpmath

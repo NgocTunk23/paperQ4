@@ -4,7 +4,11 @@ import json
 from pathlib import Path
 from typing import Any, Dict, Iterable
 
-VALID_AREA_TYPES = ("school", "hospital", "industrial")
+# Đã cập nhật 8 loại vùng theo bài nghiên cứu
+VALID_AREA_TYPES = (
+    "commercial", "industrial", "school", "university",
+    "hospital", "transportation", "residential", "park"
+)
 DEFAULT_SCENARIO_DIR = Path("scenarios")
 DEFAULT_SCENARIO = DEFAULT_SCENARIO_DIR / "area_all.json"
 
@@ -46,11 +50,15 @@ def _normalize_regions(data: Dict[str, Any]) -> list[Dict[str, Any]]:
         if not isinstance(item, dict):
             continue
 
-        area_type = item.get("area_type") or item.get("type") or ""
-        if area_type not in VALID_AREA_TYPES:
-            area_type = item.get("area_types") or ""
-            if isinstance(area_type, list):
-                area_type = area_type[0] if area_type else ""
+        # Lấy danh sách các loại vùng (hỗ trợ Đa Nhãn)
+        area_types_raw = item.get("area_types") or item.get("area_type") or item.get("type") or []
+        if isinstance(area_types_raw, str):
+            area_types_raw = [area_types_raw]
+            
+        # Lọc ra các vùng hợp lệ
+        valid_areas = [a for a in area_types_raw if a in VALID_AREA_TYPES]
+        if not valid_areas:
+            valid_areas = ["industrial"] # Default fallback
 
         lat = item.get("latitude") if item.get("latitude") is not None else item.get("lat")
         lon = item.get("longitude") if item.get("longitude") is not None else item.get("lon")
@@ -58,11 +66,11 @@ def _normalize_regions(data: Dict[str, Any]) -> list[Dict[str, Any]]:
         normalized_regions.append(
             {
                 "name": item.get("name") or item.get("region_name") or "region",
-                "area_type": area_type if area_type in VALID_AREA_TYPES else "industrial",
+                "area_types": valid_areas, # Đổi thành list để lưu đa nhãn
                 "latitude": float(lat) if lat is not None else None,
                 "longitude": float(lon) if lon is not None else None,
                 "bbox": _normalize_bbox(item.get("bbox") or item.get("area_bbox")),
-                "radius_km": float(item.get("radius_km", item.get("radius", 1.0))),
+                "radius_m": float(item.get("radius_m", item.get("radius", 800.0))),
                 "notes": item.get("notes", ""),
             }
         )
@@ -80,7 +88,10 @@ def normalize_scenario(data: Dict[str, Any], scenario_path: Path) -> Dict[str, A
     normalized_regions = _normalize_regions(data)
 
     if normalized_regions:
-        region_area_types = [region["area_type"] for region in normalized_regions]
+        # Gộp tất cả area_types từ các regions
+        region_area_types = []
+        for region in normalized_regions:
+            region_area_types.extend(region["area_types"])
         area_types = list(dict.fromkeys(area_types + region_area_types))
 
     normalized = {

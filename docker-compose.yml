@@ -1,4 +1,5 @@
 version: '3.8'
+
 services:
   traffic-simulator:
     build: .
@@ -9,7 +10,10 @@ services:
       - PYTHONUNBUFFERED=1
     volumes:
       - ./:/app
-    command: python runner.py --scenario scenarios/area_all.json
+      # Map tường minh thư mục outputs để lưu các file ma trận sinh ra
+      - ./outputs:/app/outputs 
+    # Cập nhật command để chạy luồng quy trình tạo ma trận GNN
+    command: python run_pipeline.py
 
   web-frontend:
     image: python:3.11-slim
