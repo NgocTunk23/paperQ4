@@ -2754,19 +2754,11 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0,
               1
-            ],
-            "time": 79
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 6
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -8879,19 +8871,11 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0,
               1
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -8980,18 +8964,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -40737,11 +40713,25 @@
         ],
         "lightphases": [
           {
-            "time": 30,
+            "availableRoadLinks": [
+              1
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
+          },
+          {
             "availableRoadLinks": [
               0,
               1
-            ]
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
           }
         ]
       },
@@ -44846,18 +44836,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -44946,18 +44928,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -49083,18 +49057,33 @@
         ],
         "lightphases": [
           {
-            "time": 30,
             "availableRoadLinks": [
-              0,
-              1,
-              2,
               3,
               4,
               5,
               6,
               7,
               8
-            ]
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
           }
         ]
       },
@@ -49275,18 +49264,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -49475,18 +49456,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -49575,18 +49548,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -49675,18 +49640,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -49875,18 +49832,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -50175,18 +50124,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -50275,18 +50216,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -89125,13 +89058,21 @@
         ],
         "lightphases": [
           {
-            "time": 30,
             "availableRoadLinks": [
               0,
               1,
               2,
               3
-            ]
+            ],
+            "time": 82
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 5
           }
         ]
       },
@@ -98169,18 +98110,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -132747,15 +132680,28 @@
         ],
         "lightphases": [
           {
-            "time": 30,
             "availableRoadLinks": [
               0,
               1,
-              2,
-              3,
               4,
               5
-            ]
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [
+              2,
+              3
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
           }
         ]
       },
@@ -171610,13 +171556,28 @@
         ],
         "lightphases": [
           {
-            "time": 30,
             "availableRoadLinks": [
               0,
               1,
               2,
               3
-            ]
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [
+              0,
+              1
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
           }
         ]
       },
@@ -199877,18 +199838,33 @@
         ],
         "lightphases": [
           {
-            "time": 30,
             "availableRoadLinks": [
               0,
               1,
               2,
               3,
               4,
-              5,
+              5
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [
+              0,
+              1,
               6,
               7,
               8
-            ]
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
           }
         ]
       },
@@ -206764,12 +206740,12 @@
           "direction": 0,
           "laneLinks": [
             {
-              "startLaneIndex": 1,
+              "startLaneIndex": 0,
               "endLaneIndex": 0,
               "points": [
                 {
-                  "x": 7154.01,
-                  "y": 4164.26
+                  "x": 7156.14,
+                  "y": 4161.87
                 },
                 {
                   "x": 7147.31,
@@ -207018,18 +206994,49 @@
         ],
         "lightphases": [
           {
-            "time": 30,
             "availableRoadLinks": [
-              0,
-              1,
-              2,
               3,
               4,
               5,
               6,
               7,
               8
-            ]
+            ],
+            "time": 38
+          },
+          {
+            "availableRoadLinks": [
+              4,
+              5
+            ],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [
+              3,
+              4,
+              5
+            ],
+            "time": 6
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [
+              0,
+              1,
+              2,
+              6,
+              7,
+              8
+            ],
+            "time": 37
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
           }
         ]
       },
@@ -264997,18 +265004,34 @@
         ],
         "lightphases": [
           {
-            "time": 30,
             "availableRoadLinks": [
-              0,
-              1,
-              2,
               3,
               4,
               5,
               6,
               7,
               8
-            ]
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [
+              0,
+              1,
+              2,
+              6,
+              7,
+              8
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
           }
         ]
       },
@@ -275444,19 +275467,11 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0,
               1
-            ],
-            "time": 80
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -275775,18 +275790,31 @@
         ],
         "lightphases": [
           {
-            "time": 30,
             "availableRoadLinks": [
               0,
               1,
               2,
-              3,
-              4,
-              5,
               6,
               7,
               8
-            ]
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [
+              3,
+              4,
+              5
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
           }
         ]
       },
@@ -308399,34 +308427,6 @@
                   "y": 1957.09
                 }
               ]
-            },
-            {
-              "startLaneIndex": 1,
-              "endLaneIndex": 0,
-              "points": [
-                {
-                  "x": 8309.92,
-                  "y": 1951.38
-                },
-                {
-                  "x": 8297.7,
-                  "y": 1954.34
-                }
-              ]
-            },
-            {
-              "startLaneIndex": 1,
-              "endLaneIndex": 1,
-              "points": [
-                {
-                  "x": 8309.92,
-                  "y": 1951.38
-                },
-                {
-                  "x": 8296.07,
-                  "y": 1957.09
-                }
-              ]
             }
           ]
         },
@@ -308528,15 +308528,28 @@
         ],
         "lightphases": [
           {
-            "time": 30,
             "availableRoadLinks": [
               0,
               1,
-              2,
-              3,
               4,
               5
-            ]
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [
+              2,
+              3
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
           }
         ]
       },
@@ -362921,11 +362934,24 @@
         ],
         "lightphases": [
           {
-            "time": 30,
             "availableRoadLinks": [
-              0,
               1
-            ]
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [
+              0
+            ],
+            "time": 42
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
           }
         ]
       },
@@ -367077,18 +367103,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 81
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 4
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -367247,18 +367265,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 80
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -367795,18 +367805,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 80
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -368505,18 +368507,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 79
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 6
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -368675,18 +368669,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 79
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 6
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -374684,18 +374670,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 81
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 4
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -374869,21 +374847,13 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0,
               1,
               2,
               3
-            ],
-            "time": 79
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 6
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -375616,18 +375586,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -379493,18 +379455,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 82
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 3
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -419125,13 +419079,30 @@
         ],
         "lightphases": [
           {
-            "time": 30,
             "availableRoadLinks": [
               0,
               1,
               2,
               3
-            ]
+            ],
+            "time": 78
+          },
+          {
+            "availableRoadLinks": [
+              1
+            ],
+            "time": 3
+          },
+          {
+            "availableRoadLinks": [
+              0,
+              1
+            ],
+            "time": 6
+          },
+          {
+            "availableRoadLinks": [],
+            "time": 3
           }
         ]
       },
@@ -421731,19 +421702,11 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0,
               1
-            ],
-            "time": 79
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 6
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },
@@ -430073,18 +430036,10 @@
         ],
         "lightphases": [
           {
+            "time": 30,
             "availableRoadLinks": [
               0
-            ],
-            "time": 81
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 4
-          },
-          {
-            "availableRoadLinks": [],
-            "time": 5
+            ]
           }
         ]
       },

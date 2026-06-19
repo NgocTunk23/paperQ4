@@ -67,14 +67,15 @@ def build_flow_data(valid_routes, scenario):
     start_time = int(flow_config.get("start_time", 0))
     end_time = int(flow_config.get("end_time", 900))
 
-    max_routes = min(len(valid_routes), 40)
+    #max_routes = min(len(valid_routes), 40)
+    max_routes = len(valid_routes)
     if len(valid_routes) > max_routes:
         random.seed(42)
         valid_routes = random.sample(valid_routes, max_routes)
 
     flows = []
     for i, route in enumerate(valid_routes):
-        interval = max(3.0, base_interval * route_multiplier)
+        interval = max(1.0, base_interval * route_multiplier)
         flows.append(
             {
                 "vehicle": {
@@ -118,7 +119,7 @@ def create_config_file(config_path: Path, flow_path: Path, replay_path: Path, ro
         "roadnetFile": roadnet_copy_path.name,
         "flowFile": flow_path.name,
         "rlTrafficLight": False,
-        "saveReplay": False,
+        "saveReplay": True,
         "roadnetLogFile": "replay_roadnet.json",
         "replayLogFile": replay_path.name,
     }
@@ -139,7 +140,7 @@ def run_simulation(config_path: Path):
         return False
 
     print("\n==== BƯỚC 2: KHỞI ĐỘNG MÔ PHỎNG ====")
-    TOTAL_STEPS = 60
+    TOTAL_STEPS = 100
     try:
         print(" -> Bắt đầu chạy từng bước mô phỏng...")
         for step in range(TOTAL_STEPS):

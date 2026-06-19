@@ -87,7 +87,12 @@ def build_standard_roadnet():
         # Loại bỏ các đường cụt, đường lẻ loi không kết nối vào mạng lưới
         "--remove-edges.isolated", "true",
         # Xóa các thành phần gây lỗi vật lý thường gặp trong OSM
-        "--remove-edges.by-type", "highway.path,highway.footway,highway.cycleway,highway.construction,waterway,railway"
+        "--remove-edges.by-type", "highway.path,highway.footway,highway.cycleway,highway.construction,waterway,railway",
+        # ---> THÊM 4 DÒNG SAU ĐÂY VÀO ĐỂ TẠO ĐÈN GIAO THÔNG <---
+        "--tls.guess", "true",             # Bật chế độ tự động đoán ngã tư cần đèn
+        "--tls.guess.threshold", "30",     # Ngưỡng vận tốc/lưu lượng để đặt đèn (tùy chỉnh)
+        "--tls.default-type", "static",    # Sử dụng loại đèn cố định thời gian (phù hợp với CityFlow)
+        "--tls.join", "true"               # Gộp các cụm đèn ở các ngã tư phức tạp lại với nhau
     ]
 
     try:
