@@ -5,19 +5,19 @@ services:
     build: .
     image: hcmc-traffic-bot:latest
     container_name: traffic-bot-1
-    restart: unless-stopped
+    # Đổi thành "no" để container không tự động chạy lại sau khi hoàn tất pipeline
+    restart: "no" 
     environment:
       - PYTHONUNBUFFERED=1
     volumes:
       - ./:/app
-      # Map tường minh thư mục outputs để lưu các file ma trận sinh ra
-      - ./outputs:/app/outputs 
-    # Cập nhật command để chạy luồng quy trình tạo ma trận GNN
+      - ./outputs:/app/outputs
     command: python run_pipeline.py
 
   web-frontend:
     image: python:3.11-slim
     container_name: cityflow_frontend
+    # Giữ nguyên để Web Server luôn duy trì hoạt động
     restart: unless-stopped
     ports:
       - "8080:8000"

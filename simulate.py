@@ -140,7 +140,7 @@ def run_simulation(config_path: Path):
         return False
 
     print("\n==== BƯỚC 2: KHỞI ĐỘNG MÔ PHỎNG ====")
-    TOTAL_STEPS = 100
+    TOTAL_STEPS = 60
     try:
         print(" -> Bắt đầu chạy từng bước mô phỏng...")
         for step in range(TOTAL_STEPS):
